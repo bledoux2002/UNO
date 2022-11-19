@@ -111,7 +111,7 @@ class Uno:
             return
 
         # Moves current card from hand to tableDeck
-        self.tableDeck.append(hand.pop(self.pos)
+        self.tableDeck.append(hand.pop(self.pos))
 
         # Moves corresponding image from imgList to tDeckImg.
         self.tDeckImg.append(Image(Point(500 + randrange(-25, 25), 500 + randrange(-25, 25)), "cardassets/" + self.tableDeck[-1].__str__() + ".png"))
