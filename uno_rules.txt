@@ -1,0 +1,14 @@
+Base Rules:
+1) Both players begin with 4 cards in their hand. They can have up to a maximum of 8.
+2) Starting with the user, each player will place down an eligible card from their hand
+ into the center pile.
+3) Playable cards are defined by their color or rank.
+	3a) A card with the same color or rank as the center card can be played.
+	3b) If there are no eligible cards in a player's hand, they must draw one card
+	 from the Remaining Deck. If they have 8 cards, they pass their turn. If neither
+	 player can play a card, the game counts as a draw
+4) Some cards are utiliy cards.
+	4a) A "+2" card adds 2 cards to the next player's hand. This card must match the
+	 rank or suit of the Table Card.
+	 to match the rank or suit of the Table Card.
+5) The first player to empty their hand is the winner.
