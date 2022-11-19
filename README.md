@@ -11,3 +11,8 @@ This project is a python implementation of the card game UNO! using object-orien
 ## Deployment
 
 To deploy this project run UNO.py from terminal or any code editor.
+
+
+## Sources
+
+- [Card Assets](https://opengameart.org/content/uno-playing-cards-2d)
