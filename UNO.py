@@ -9,14 +9,13 @@ from random import *
 import time
 """
 graphics is used to display the game
-deckclass makes a deck of cards from the playingcardclass module
+deckClass makes a deck of cards from the playingCardClass module
 buttonClass makes fully functional buttons for the UI
 random lets the pile of cards played look more natural and accurate to a real life game of UNO!
-time is used to space out different UI and game board changes for easier processing by the PC
+time is used to slow the game down to simulate real life, for a more pleasing presentation
 """
 
 # Creates a class that simulates a game of UNO
-# This class will provide everything needed to simulate a game of UNO.
 class Uno:
 
     # Initializes the variables and lists, creates a new deck of cards from deckclass.py, and uses its .shuffleDeck() method to shuffle it.
@@ -204,13 +203,13 @@ def main():
         pHandBtn.append(Button(gWin, Point(100 + (100 * n), 750), 75, 25, str(n + 1)))
         pHandBtn[n].undraw()
 
-    # Adjusts UI to only show 
+    # Adjusts UI to only show necessary buttons
     drawBtn.undraw()
     resetBtn.undraw()
 
     pt = gWin.getMouse()
 
-    # While quit button hasn't been clicked, check for other buttons if they've been clicked
+    # While quit button hasn't been clicked, check if other buttons have been clicked
     while quitBtn.clicked(pt) == False:
 
         # if "Rules" button is clicked, opens new window with uno_rules.txt

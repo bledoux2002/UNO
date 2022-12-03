@@ -10,8 +10,14 @@ This project is a python implementation of the card game UNO! using object-orien
 
 ## Deployment
 
-To deploy this project run UNO.py from terminal or any code editor.
+To deploy this project run UNO.py from the terminal or any code editor.
 
+## Further Work
+
+Incorporate more special cards like color-changing cards, +4, skip, etc. Possibly even a third or fourth player and a reverse card.
+More house-rules and the options to enable or disable them, calling out opponents in case they didn't have to play a +4, stacking cards, jumping in.
+Fleshing out the computer-controlled opponent to use cards more strategically, possibly incorporating a difficulty setting.
+Multiplayer, take your turn, click a button to hide your hand, opponent can now look at the screen and click a button to show their hand, continue cyclically.
 
 ## Sources
 
